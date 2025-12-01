@@ -35,15 +35,34 @@ ul.topnav li a {
     text-decoration: underline;
     text-decoration-style: wavy ;
 }
+.djswaxyrockdiv {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 400px;
+    margin-bottom: 20px;
+}
+#djswaxyrockheader {
+
+    justify-self: left;
+    color: wheat;
+    background-color: darkblue;
+    width: 350px;
+    padding: 0;
+
+}
+#djswaxyrockheader p {
+    justify-self: left;
+    margin-left: 10px;
+}
 
 #djswaxyrockstext {
-    background-image: linear-gradient(-45deg, deeppink, blueviolet);
-    border: solid 1px black;
-    width: 500px;
-    height: 50px;
-    text-shadow: 1px 1px black;
     justify-self: center;
-    margin-bottom: 20px;
+    background-image: linear-gradient(-45deg, deeppink, blueviolet);
+    width: 330px;
+    height: 80px;
+    text-shadow: 1px 1px black;
+
 
 }
 
@@ -63,7 +82,7 @@ ul.topnav li a {
     color: wheat;
     background-color: darkblue;
     padding: 0;
-    border-bottom: solid 5px darkviolet;
+
 
 }
 .headright{
@@ -73,7 +92,11 @@ ul.topnav li a {
     color: wheat;
     background-color: darkblue;
     padding: 0;
-    border-bottom: solid 5px darkviolet;
+
+}
+.headright p {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .headcenter{
     display: flex;
@@ -82,7 +105,7 @@ ul.topnav li a {
     color: wheat;
     background-color: darkblue;
     padding: 0;
-    border-bottom: solid 5px darkviolet;
+
 }
 .centerdiv{
 
@@ -103,8 +126,35 @@ ul.topnav li a {
 }
 .rightdiv {
     justify-self: right;
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+
+}
+.righttopdiv{
+    background-color: white;
     border: solid 10px darkblue;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 250px;
+
+}
+.ChatDiv {
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+.rightbottomdiv {
+    border: solid 10px darkblue;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+#chattext{
+    display: flex;
+    color: wheat;
+    justify-self: left;
+    margin-left: 10px;
 }
 
 .linksbutton {
@@ -133,4 +183,24 @@ a {
 img {
     box-shadow: black;
     margin: 0px 10px 0px 10px;
+}
+#chatinput{
+    width: 256px; height: 58px;
+}
+#chatbutton {
+    width: 64px; height: 64px;
+    margin-left: 22px;
+}
+.ChatDivContent {
+    display: flex;
+    flex-direction: row;
+}
+#topchattext{
+    text-shadow: 0.5px 0.5px black;
+    justify-self: center;
+}
+
+#chatlog {
+    justify-self: left;
+    padding-left: 5px;
 }
